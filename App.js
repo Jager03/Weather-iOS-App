@@ -29,7 +29,7 @@ export default function App() {
     Thunderstorm: "lightning",
   };
 
-  const APIkey = "eaa77a716bad80f304a9a46b4bd375a0";
+  const APIkey = "eaa77a716bad80f304a9a46b4...";
 
   const getLocation = async () => {
     let { granted } = await Location.requestForegroundPermissionsAsync();
